@@ -40,6 +40,7 @@ public class AppUtils {
       expected = "Gmail: Free, Private & Secure Email | Google Workspace";
       actual = driver.getTitle();
       Assert.assertEquals(actual, expected);
+      System.out.println(actual);
   }
   
   @Test(priority = 1)
