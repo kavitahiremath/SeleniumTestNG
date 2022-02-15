@@ -28,6 +28,7 @@ public class AppUtils {
   @BeforeTest
   public void lauchApp() {
 	  System.out.println("launching chrome browser"); 
+	  System.out.println("Welcome chrome browser"); 
       System.setProperty("webdriver.chrome.driver", driverPath);
       driver = new ChromeDriver();
       driver.get(baseUrl);
