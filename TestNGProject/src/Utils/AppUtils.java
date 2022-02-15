@@ -48,6 +48,7 @@ public class AppUtils {
         expected = "Google Terms of Service – Privacy & Terms – Google";
         actual = driver.getTitle();
         Assert.assertEquals(actual, expected);
+        System.out.println(actual);
   }
   @AfterMethod
   public void goBackToHomepage ( ) {
