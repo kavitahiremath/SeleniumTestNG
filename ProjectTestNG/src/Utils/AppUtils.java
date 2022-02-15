@@ -9,6 +9,7 @@ public class AppUtils {
   public void f() {
 	  System.out.println("This is test"); 
 	  System.out.println("This is test 1"); 
+	  System.out.println("This is test 2"); 
   }
   
   @BeforeMethod
