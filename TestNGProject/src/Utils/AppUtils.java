@@ -55,6 +55,7 @@ public class AppUtils {
 
   @AfterTest
   public void closeApp() {
+	  System.out.println("closing chrome browser"); 
 	  driver.close();
   }
 
