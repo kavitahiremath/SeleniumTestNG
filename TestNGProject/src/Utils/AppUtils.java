@@ -29,6 +29,7 @@ public class AppUtils {
   public void lauchApp() {
 	  System.out.println("launching chrome browser"); 
 	  System.out.println("Welcome chrome browser"); 
+	  System.out.println("This is my Project");
       System.setProperty("webdriver.chrome.driver", driverPath);
       driver = new ChromeDriver();
       driver.get(baseUrl);
