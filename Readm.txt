@@ -7,4 +7,5 @@ System.out.println("This is from git demo")
 System.out.println("This is from IntelliJ code demo")
 System.out.println("This is from git code demo")
 System.out.println("This is from IntelliJ code updated")
+System.out.println("This is from IntelliJ  new code updated")
 }
